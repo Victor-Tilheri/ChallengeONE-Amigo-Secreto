@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fcd8d7
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-image: url("assets/amigo-secreto.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ff5757;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+}
+
+#name {
+    color: #ff5757;
+    font-size: 18pt;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: #000 0 2px 5px;
+}
+
+#add-button {
+    background-color: #ff5757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18pt;
+    border-radius: 10px;
+    cursor: pointer;
+}
