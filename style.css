@@ -35,7 +35,28 @@ form {
     box-shadow: #000 0 2px 5px;
 }
 
-#add-button {
+#name:focus {
+    outline: none;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18pt;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#addButton {
+    background-color: #ff5757;
+    color: white;
+}
+
+#addButton:hover {
+    background-color: #ff6b6b;
+}
+
+#sortButton {
     background-color: #ff5757;
     color: white;
     border: none;
@@ -43,4 +64,67 @@ form {
     font-size: 18pt;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#sortButton:hover {
+    background-color: #ff6b6b;
+}
+
+#resetButton:hover {
+    background-color: #dfdfdf;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18pt;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+
+#backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal {
+    width: 20%;
+    height: 200px;
+    background-color: #ff5757;
+    text-align: center;
+    display: none;
+}
+
+#modal h2 {
+    color: #ff5757;
+    text-align: center;
+    padding: 10px;
+    font-size: 18pt;
+    background-color: white;
+}
+
+#modal p {
+    font-size: 18pt;
+    color: white;  
+    text-align: center;
+}
+
+#closeButton:hover {
+    background-color: #dfdfdf;
+}
+
+#result {
+    font-weight: bold;
 }
